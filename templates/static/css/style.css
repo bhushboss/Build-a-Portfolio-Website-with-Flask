@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+section {
+    padding: 2em 1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+#about p {
+    font-size: 1.1em;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    background: #f4f4f4;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#projects strong {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+label {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 0.25em;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 0.75em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.flash-messages {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 1em;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.flash-messages ul {
+    margin: 0;
+    padding-left: 1.2em;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    section {
+        padding: 1em;
+    }
+  }
